@@ -43,7 +43,7 @@ _data = {
 "power": SubResource("Animation_oa2ml")
 }
 
-[node name="Plane" type="CharacterBody2D"]
+[node name="Plane" type="CharacterBody2D" groups=["Plane"]]
 script = ExtResource("1_3qgmm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

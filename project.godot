@@ -17,6 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+SignalManager="*res://singletons/signal_manager.gd"
 GameManager="*res://singletons/game_manager.gd"
 
 [display]
@@ -24,6 +25,10 @@ GameManager="*res://singletons/game_manager.gd"
 window/size/viewport_width=480
 window/size/viewport_height=854
 window/stretch/mode="canvas_items"
+
+[global_group]
+
+Plane=""
 
 [input]
 
