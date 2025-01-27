@@ -1,5 +1,7 @@
 extends Node
 
+const SCORES_PATH = "user://tappy.dat"
+
 var _score : int = 0
 var _high_score: int = 0
 
