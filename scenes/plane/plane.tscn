@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://cnufqf13m8y8s"]
+[gd_scene load_steps=8 format=3 uid="uid://cnufqf13m8y8s"]
 
 [ext_resource type="Script" path="res://scenes/plane/plane.gd" id="1_3qgmm"]
 [ext_resource type="SpriteFrames" uid="uid://cskm5cojcstnd" path="res://assets/frames/plane_frames.tres" id="1_o0oad"]
+[ext_resource type="AudioStream" uid="uid://b8pim3788yevf" path="res://assets/audio/engine.mp3" id="3_e66u1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nnbcf"]
 radius = 26.0768
@@ -60,3 +61,7 @@ shape = SubResource("CircleShape2D_nnbcf")
 libraries = {
 "": SubResource("AnimationLibrary_17qpe")
 }
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_e66u1")
+autoplay = true

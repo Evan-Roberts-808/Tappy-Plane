@@ -23,3 +23,4 @@ func on_plane_died() -> void:
 	show()
 	timer.start()
 	sound.play()
+	ScoreManager.save_high_score()
